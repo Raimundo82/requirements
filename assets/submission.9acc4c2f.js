@@ -1,4 +1,4 @@
-import{pdfUrlData as i,pdfDownload as s,pdfOpen as e}from"./pdfGen.ad96834d.js";import{g as t,c as a,a as n}from"./index.33ea3b45.js";const d=`.submission-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:18px}.submission-btns>button{color:#fff;background-color:#182439;border-color:#182439;opacity:.8;width:150px}.submission-btns>button:hover{opacity:1;color:#fff;background-color:#182439;border-color:#182439}div#iframeContainer{padding:20px;display:flex;flex-wrap:wrap;justify-content:center}
+import{pdfUrlData as i,pdfDownload as s,pdfOpen as e}from"./pdfGen.87cb89d2.js";import{g as t,c as a,a as n}from"./index.cdb509ee.js";const d=`.submission-btns{display:flex;flex-wrap:wrap;justify-content:center;gap:18px}.submission-btns>button{color:#fff;background-color:#182439;border-color:#182439;opacity:.8;width:150px}.submission-btns>button:hover{opacity:1;color:#fff;background-color:#182439;border-color:#182439}div#iframeContainer{padding:20px;display:flex;flex-wrap:wrap;justify-content:center}
 `,c="Abrir PDF",r="Descarregar PDF",o={open:c,download:r},l=()=>html`
     <div>
       <style>
