@@ -1,0 +1,4 @@
+import{b as t}from"./index.0b2c41ba.js";const i=(e,o)=>{let a=o.legislation.reduce((r,n,d,l)=>{let s=d===l.length-2?" e":",";return`${r}${n.alinea?`da al\xEDnea ${n.alinea})`:""} do n.\xBA ${n.num} do artigo ${n.article}.\xBA${s} `},"");return{submissionContent:{header:`Exmo. Senhor
+Vice-almirante Superintendente do Pessoal`,body:`${e.idNumber} ${e.rank} ${e.category} ${e.completeName}, do mapa de pessoal civil da Marinha, a prestar servi\xE7o na ${e.unit} vem requerer a V. Ex\xAA., que lhe seja concedida ${o.licence.toLowerCase()} no per\xEDodo de ${o.dateStart} a ${o.dateEnd} nos termos ${a} do C\xF3digo do Trabalho, aprovado pela Lei n.\xBA 7/2009, de 12 de fevereiro, alterado pelo artigo 2.\xBA da Lei n.\xBA 120/2015 de 1 de setembro,`,footer:`Pede Deferimento
+
+${t()}`}}};export{i as submissionContent};
