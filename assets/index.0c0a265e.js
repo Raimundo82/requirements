@@ -9,8 +9,6 @@ const T=function(){const n=document.createElement("link").relList;if(n&&n.suppor
           <button type="button" class="btn btn-icon" id="btn-prev" disabled>
             <img src="${K}" alt="prev" width="10px" />
           </button>
-        </li>
-        <li>
           <button type="button" class="btn btn-state" active>
             ${N.identification}
           </button>
@@ -92,4 +90,4 @@ const T=function(){const n=document.createElement("link").relList;if(n&&n.suppor
         </button>
       </div>
     </form>
-  `}const v=s("#app");v.addEventListener("pointerover",fe);function fe(){$(()=>import("./createPopper.bcd46c80.js"),[]),$(()=>import("./bootstrap.esm.min.9853106f.js"),[]),$(()=>import("./pdfGen.d1b0b27a.js"),[])}async function be(e){const{requirement:n}=await $(()=>import("./requirements.12092928.js"),["assets/requirements.12092928.js","assets/bootstrap.esm.min.9853106f.js"]);n({requirementName:e})}async function ve(){const e=(await $(()=>import("./submission.944149e7.js"),["assets/submission.944149e7.js","assets/pdfGen.d1b0b27a.js"])).default;e()}function D(){v.innerHTML=""}function he(){D(),y(v,"change-state",{state:0}),F()}function ge(){const e=b().identificationData.selectedRequirement;D(),y(v,"change-state",{state:1}),_({currentState:1}),be(e)}function ye(){D(),y(v,"change-state",{state:2}),ve()}v.addEventListener("identification-step",he);v.addEventListener("requirement-step",ge);v.addEventListener("submission-step",ye);F();export{$ as _,b as a,qe as b,P as c,y as d,s as g,_ as s};
+  `}const v=s("#app");v.addEventListener("pointerover",fe);function fe(){$(()=>import("./createPopper.bcd46c80.js"),[]),$(()=>import("./bootstrap.esm.min.9853106f.js"),[]),$(()=>import("./pdfGen.e108e65c.js").then(e=>e.d),[])}async function be(e){const{requirement:n}=await $(()=>import("./requirements.b42ea631.js"),["assets/requirements.b42ea631.js","assets/bootstrap.esm.min.9853106f.js"]);n({requirementName:e})}async function ve(){const e=(await $(()=>import("./submission.dda113f6.js"),["assets/submission.dda113f6.js","assets/pdfGen.e108e65c.js"])).default;e()}function D(){v.innerHTML=""}function he(){D(),y(v,"change-state",{state:0}),F()}function ge(){const e=b().identificationData.selectedRequirement;D(),y(v,"change-state",{state:1}),_({currentState:1}),be(e)}function ye(){D(),y(v,"change-state",{state:2}),ve()}v.addEventListener("identification-step",he);v.addEventListener("requirement-step",ge);v.addEventListener("submission-step",ye);F();export{$ as _,b as a,qe as b,P as c,y as d,s as g,_ as s};
