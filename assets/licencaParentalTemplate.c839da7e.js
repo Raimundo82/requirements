@@ -1,4 +1,4 @@
-import{b as $}from"./index.f025e5e5.js";const m=(e,o)=>{let l=o.legislation.reduce((s,r,n,d)=>{let a=n===d.length-2?" e":",";return`${s}${r.alinea?`da al\xEDnea ${r.alinea})`:""} do n.\xBA ${r.num} do artigo ${r.article}.\xBA${a} `},"");return{submissionContent:{header:`Exmo. Senhor
+import{b as $}from"./index.6e10d7c4.js";const m=(e,o)=>{let l=o.legislation.reduce((s,r,n,d)=>{let a=n===d.length-2?" e":",";return`${s}${r.alinea?`da al\xEDnea ${r.alinea})`:""} do n.\xBA ${r.num} do artigo ${r.article}.\xBA${a} `},"");return{submissionContent:{header:`Exmo. Senhor
 Vice-almirante Superintendente do Pessoal`,body:`${e.idNumber} ${e.isMilitar?e.rank+" "+e.class:e.category} ${e.completeName} ${e.isMilitar?",":", do mapa de pessoal civil da Marinha,"} a prestar servi\xE7o na ${e.unit} vem requerer a V. Ex\xAA., que lhe seja concedida ${o.licence.toLowerCase()} no per\xEDodo de ${o.dateStart} a ${o.dateEnd} nos termos ${l} do C\xF3digo do Trabalho, aprovado pela Lei n.\xBA 7/2009, de 12 de fevereiro, alterado pelo artigo 2.\xBA da Lei n.\xBA 120/2015 de 1 de setembro,`,footer:`Pede Deferimento
 
 ${$()}`}}};export{m as submissionContent};
